@@ -1,0 +1,28 @@
+#form{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.label-form {
+    font-weight: bolder;
+    padding-right: 30px;
+    width: 100px;
+    float: left;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.send-button {
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.send-button:hover {
+    cursor: pointer;
+    background-color: rgb(111, 230, 235);
+}

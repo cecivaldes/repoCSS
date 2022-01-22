@@ -9,6 +9,8 @@
         <form action="POST" id="#form">
             <label class= "label-form" for="firstName">Nombre:</label>
             <input type="text" name="firstName">
+            <!-- br is applied to have a single line break for each input.
+            The br tag is empty, meaning it has no end tag.-->
             <br>
             <label class= "label-form" for="mail">E-mail:</label>
             <input type="mail" name="mail">
@@ -16,6 +18,9 @@
             <label class= "label-form" for="comments">Comentarios</label>
             <textarea name="comments"></textarea>
             <br>
+            <!-- The div tag is used to define the division of section from the
+            form to the send button we want to create. It is used as a container
+            for HTML elements, with is then styled in the .css doc.-->
             <div class="form-button">
                 <button class="send-button" type="submit">Enviar</button>
             </div>
